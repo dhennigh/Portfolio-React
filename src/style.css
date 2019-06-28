@@ -1,14 +1,33 @@
 /*---Github Component---*/
 #github-icon {
 	color: #24292e;
-	font-size: 24px;
+	font-size: 36px;
+	margin-bottom: -5px;
+}
+
+#linkedin-icon {
+    color: #0073b1;
+    font-size: 36px;
+    margin-left: 0;
+    transition: margin-left 2s;
+}
+
+#linkedin-icon:hover {
+	margin-left: 10px;
+}
+
+.social-container a {
+	left: 0;
+}
+
+.social-container {
+	position: left;
 }
 
 /*---Social Component---*/
 .social-icons {
-	margin-left: 4px;
-}
-
-.hello-test {
-	color: red;
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	/*transform: translateX(-58%);*/
 }

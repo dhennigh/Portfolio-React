@@ -7,8 +7,14 @@ class Social extends React.Component {
 
         return (
             <div class="social-icons">
-            	<GithubContact />
-                <LinkedinContact />
+            	<ul class="social-icons">
+            		<li>
+            			<GithubContact />
+            		</li>
+            		<li>
+            			<LinkedinContact />
+            		</li>
+            	</ul>
             </div>
         )
     }
