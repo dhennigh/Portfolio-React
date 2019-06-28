@@ -1,5 +1,4 @@
 import React from "react"
-import Home from "./Home"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
@@ -12,13 +11,10 @@ class Navbar extends React.Component {
             		<div id="navbarNav">
             			<ul>
             				<li>
-            				<Home />
+                            <Portfolio />
             				</li>
             				<li>
             				<About />
-            				</li>
-            				<li>
-            				<Portfolio />
             				</li>
             				<li>
             				<Contact />

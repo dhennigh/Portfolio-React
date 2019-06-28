@@ -4,16 +4,11 @@ import LinkedinContact from "./LinkedinContact"
 
 class Social extends React.Component {
     render() {
+
         return (
-            <div>
-            	<ul>
-            		<li>
-            			<GithubContact />
-            		</li>
-            		<li>
-            		   	<LinkedinContact />
-            		</li>
-        		</ul>
+            <div class="social-icons">
+            	<GithubContact />
+                <LinkedinContact />
             </div>
         )
     }

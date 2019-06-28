@@ -9,6 +9,6 @@
 	margin-left: 4px;
 }
 
-.hello-test {
+.test {
 	color: red;
 }
