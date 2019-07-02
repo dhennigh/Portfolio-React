@@ -5,17 +5,24 @@
 	margin-bottom: -5px;
 }
 
+/*---Linkedin Component---*/
 #linkedin-icon {
     color: #0073b1;
     font-size: 36px;
     margin-left: 0;
     transition: margin-left 2s;
+    margin-bottom: -5px;
 }
 
 #linkedin-icon:hover {
 	margin-left: 10px;
 }
 
+/*---Facebook Component---*/
+#facebook-icon {
+	color: #4267b2;
+    font-size: 36px;
+}
 .social-container a {
 	left: 0;
 }

@@ -8,6 +8,7 @@ class App extends React.Component {
         return (
             <div>
                 <Social />
+                <Contact />
             </div>
         )
     }

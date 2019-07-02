@@ -8,9 +8,10 @@ class Projects extends React.Component {
             	let i = 0;
                 {projectsData.map(project => (
                 	<Projects
-                		key={'project${i++}'}
+                		key={'project${i++}'},
                 		name={project.name},
-                		description={project.description}
+                		description={project.description},
+                        class="col-md"
                 	/>
                 ))}
             </div>

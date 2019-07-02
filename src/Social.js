@@ -1,6 +1,7 @@
 import React from "react"
 import GithubContact from "./GithubContact"
 import LinkedinContact from "./LinkedinContact"
+import FacebookContact from "./FacebookContact"
 
 class Social extends React.Component {
     render() {
@@ -14,6 +15,9 @@ class Social extends React.Component {
             		<li>
             			<LinkedinContact />
             		</li>
+                    <li>
+                        <FacebookContact />
+                    </li>
             	</ul>
             </div>
         )

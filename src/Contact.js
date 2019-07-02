@@ -6,7 +6,8 @@ import ContactMessage from "./ContactMessage"
 
 class Contact extends React.Component {
   constructor(props) {
-  this.handleSubmit = this.handleSubmit.bind(this);
+    super(props)
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
 	handleSubmit(event) {
