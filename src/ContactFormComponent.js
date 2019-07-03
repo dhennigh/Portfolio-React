@@ -4,7 +4,7 @@ import ContactEmail from "./ContactEmail"
 import ContactPhone from "./ContactPhone"
 import ContactMessage from "./ContactMessage"
 
-class Contact extends React.Component {
+class ContactFormComponent extends React.Component {
   constructor(props) {
     super(props)
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -31,4 +31,4 @@ class Contact extends React.Component {
   	}
 }
 
-export default Contact
+export default ContactFormComponent
