@@ -8,9 +8,8 @@ class LinkedinContact extends React.Component {
                 <a
                 target="_blank" 
                 href="https://www.linkedin.com/in/darinhennigh/" 
-                title="Connect on Linkedin"
-                id="linkedin-icon">
-                    <i class="fab fa-linkedin"></i>
+                title="Connect on Linkedin">
+                    <i class="fab fa-linkedin" id="linkedin-icon"></i>
                 </a>
             </div>
         )

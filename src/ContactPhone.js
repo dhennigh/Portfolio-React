@@ -10,7 +10,7 @@ class ContactPhone extends React.Component {
     this.handleChangePhone = this.handleChangePhone.bind(this);
   	}
 
-	handleChangeName(event) {
+	handleChangePhone(event) {
 		this.setState({phone: event.target.phone});
 	}
 

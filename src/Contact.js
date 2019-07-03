@@ -23,7 +23,8 @@ class Contact extends React.Component {
             <ContactEmail />
             <ContactPhone />
             <ContactMessage />
-            <input type="submit" value="Submit" class="btn btn-primary" />
+            <input type="submit" value="Submit" class="btn btn-primary contact-submit-button"/>
+            <input type="reset" value="Clear Form" class="btn btn-secondary contact-clear-button"/>
           </form>
         </div>
 	    );

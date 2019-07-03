@@ -10,7 +10,7 @@ class ContactEmail extends React.Component {
     this.handleChangeEmail = this.handleChangeEmail.bind(this);
   	}
 
-	handleChangeName(event) {
+	handleChangeEmail(event) {
 		this.setState({email: event.target.email});
 	}
 

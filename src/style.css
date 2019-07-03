@@ -38,3 +38,14 @@
 	left: 0;
 	/*transform: translateX(-58%);*/
 }
+
+/*---Contact Component---*/
+.contact-submit-button {
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.contact-clear-button {
+	margin-left: 5px;
+	margin-top: 5px;
+}

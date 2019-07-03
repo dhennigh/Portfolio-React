@@ -18,6 +18,7 @@ class ContactMessage extends React.Component {
 	    return (
 	    	<div class="col-md-6">
 	        	<label className="form-label">Drop me a line:</label>
+	        	<br></br>
 			    <textarea
 			    	onChange={this.handleChangeMessage}
 			    	className="contact-message"

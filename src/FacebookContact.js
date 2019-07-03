@@ -14,4 +14,3 @@ class FacebookContact extends React.Component {
 }
 
 export default FacebookContact
-Contact
