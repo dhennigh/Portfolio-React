@@ -1,6 +1,7 @@
 import React from "react"
 import Social from "./Social"
 import ContactFormComponent from "./ContactFormComponent"
+import Navbar from "./Navbar"
 import './style.css';
 
 class App extends React.Component {
@@ -8,7 +9,6 @@ class App extends React.Component {
         return (
             <div>
                 <Social />
-                <ContactFormComponent />
             </div>
         )
     }
