@@ -12,8 +12,8 @@ class AboutMe extends React.Component {
 	        	
 	        	<p class="about-paragraph" id="about-paragraph-1">
 	        	Since 2010 I have been working in the healthcare IT industry with a focus on implementing 
-	        	electronic medical records.  I have focused on the installation of 
-	        	<a href="https://www.epic.com">Epics</a> home health and hospice billing applications.
+	        	electronic medical records.  I have focused on the installation of <a href="https://www.epic.com">Epic's</a> home 
+	        	health and hospice billing applications.
 	        	</p>
 
 	        	<p class="about-paragraph" id="about-paragraph-2">
@@ -24,8 +24,8 @@ class AboutMe extends React.Component {
 	        	</p>
 
 	        	<p class="about-paragraph" id="about-paragraph-3">
-	        	I hope you'll take a look at my projects and use the <a href="<Contact />">contact</a>
-	        	form to <a href="mailto:dchennigh@gmail.com">get in touch</a>.
+	        	I hope you'll take a look at my projects and use the <a href="<Contact />">contact</a> form
+	        	to <a href="mailto:dchennigh@gmail.com">get in touch</a>.
 	        	</p>
             </div>
         )

@@ -1,14 +1,19 @@
 import React from "react"
 import Social from "./Social"
-import ContactFormComponent from "./ContactFormComponent"
 import Navbar from "./Navbar"
+import Introduction from "./Introduction"
+import Resume from "./Resume"
+import ContactFormComponent from "./ContactFormComponent"
 import './style.css';
 
 class App extends React.Component {
     render() {
         return (
             <div>
-                <Social />
+            	<Navbar />
+            	<Introduction />
+            	<Resume />
+            	<ContactFormComponent />
             </div>
         )
     }
