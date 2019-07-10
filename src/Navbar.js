@@ -35,9 +35,9 @@ class Navbar extends React.Component {
                         <div className="navWide">
                             <div className="wideDiv">
                                 <Link to='/' className="text-info nav-link-wide">Home</Link>
-                                <a href="#" className="text-info nav-link-wide">Portfolio</a>
+                                <Link to='/portfolio/' className="text-info nav-link-wide">Portfolio</Link>
                                 <Link to='/about/' className="text-info nav-link-wide">About</Link>
-                                <a href="#" className="text-info nav-link-wide">Contact</a>
+                                <Link to='/contact/' className="text-info nav-link-wide">Contact</Link>
                             </div>
                         </div>
                         <div className="navNarrow">
@@ -45,15 +45,17 @@ class Navbar extends React.Component {
                             <div>
                                 <ul className="narrowLinks" style={this.state.style}>
                                     <li><Link to='/' className="text-info nav-link-narrow">Home</Link></li>
-                                    <li><a href="#" className="text-info nav-link-narrow">Portfolio</a></li>
+                                    <li><Link to='/portfolio/' className="text-info nav-link-narrow">Portfolio</Link></li>
                                     <li><Link to='/about/' className="text-info nav-link-narrow">About</Link></li>
-                                    <li><a href="#" className="text-info nav-link-narrow">Contact</a></li>
+                                    <li><Link to='/contact/' className="text-info nav-link-narrow">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
                 	</nav>
                     <Route exact path='/' component={App} />
                     <Route path='/about/' component={AboutMe} />
+                    <Route path='/portfolio/' component={Portfolio} />
+                    <Route path='/contact/' component={ContactFormComponent} />
                 </div>
             </Router>
         )
