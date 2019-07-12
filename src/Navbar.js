@@ -3,6 +3,9 @@ import App from "./App"
 import AboutMe from "./AboutMe"
 import Portfolio from "./Portfolio"
 import ContactFormComponent from "./ContactFormComponent"
+import Pdf from "./Resume.pdf"
+
+import { Link } from 'react-router-dom'
 
 
 class Navbar extends React.Component {
@@ -36,6 +39,7 @@ class Navbar extends React.Component {
                             <Link to='/portfolio/' className="text-info nav-link-wide">Portfolio</Link>
                             <Link to='/about/' className="text-info nav-link-wide">About</Link>
                             <Link to='/contact/' className="text-info nav-link-wide">Contact</Link>
+                            <a href={ Pdf } target="_blank" className="text-info nav-link-wide">Resume</a>
                         </div>
                     </div>
                     <div className="navNarrow">
@@ -46,14 +50,11 @@ class Navbar extends React.Component {
                                 <li><Link to='/portfolio/' className="text-info nav-link-narrow">Portfolio</Link></li>
                                 <li><Link to='/about/' className="text-info nav-link-narrow">About</Link></li>
                                 <li><Link to='/contact/' className="text-info nav-link-narrow">Contact</Link></li>
+                                <li><Link to='/resume/' className="text-info nav-link-narrow">Resume</Link></li>
                             </ul>
                         </div>
                     </div>
             	</nav>
-                <Route exact path='/' component={App} />
-                <Route path='/about/' component={AboutMe} />
-                <Route path='/portfolio/' component={Portfolio} />
-                <Route path='/contact/' component={ContactFormComponent} />
             </div>
         )
     }

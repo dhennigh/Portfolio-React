@@ -1,12 +1,50 @@
+/*---Body---*/
+body {
+	background-image: linear-gradient(to bottom right, #68ba95, #37B9E9)
+}
+
 /*---Intro Component---*/
+.intro {
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
 .intro-header1 {
 	text-align: left;
-	color: #2D3539;
+	color: white;
 }
 
 .intro-header2 {
 	text-align: left;
-	color: #2D3539;
+	color: white;
+}
+
+#intro-emphasis1 {
+	color: #7B45FF;
+}
+
+#intro-emphasis2 {
+	color: #F8EB26;
+}
+
+.intro-split {
+	margin: 25px 0px;
+	display: block;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(to right, white, rgba(255, 255, 255, 0))
+}
+
+.intro-paragraph {
+	color: white;
+	font-size: 20px;
+	width: 65%;
+}
+
+.spacer {
+	margin: 15px 0px;
 }
 
 /*---Github Component---*/
@@ -65,68 +103,50 @@
 nav {
 	background-color: #FAFAFA;
 	overflow: hidden;
-	padding: 1em;
-
-	/*a {
-		color: #FFF;
-	}
-
-	a:visited {
-		color: #FFF;
-	}*/
-
-	border-bottom: 1px solid #000;
-
-	.navWide {
-		display: none;
-		margin: 0 auto;
-
-		.wideDiv {
-			text-align: center;
-
-			a {
-				text-decoration: none;
-				display: inline-block;
-				/* Adjust padding to increase/decrease the space between links.*/
-				padding: 0 10px;
-			}
-		}
-	}
-
-	/* Navbar is set to default with the "hamburger" and links on the left
-	// side of the screen. To move to the right of the screen, simply
-	// change the three "float: Left;" references to read "float: right;".*/
-	.navNarrow {
-
-		.narrowLinks {
-			display: none;
-
-			a {
-				text-decoration: none;
-				display: block;
-				float: right;
-				clear: left;
-				padding: 0.5em 0;
-			}
-		}
-	}
+	border-bottom: 1px solid #fff;
 }
 
 .hamburger {
-	color: #17A2B8;
+	color: #7B45FF;
+	padding-left: 5px;
 }
 
 .nav-link-wide {
-	padding: 0 10px;
+	padding: 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #7B45FF!important
 }
 
-ul {
-	list-style-type: none;
-	padding-inline-start: 3px;
+
+.wideDiv {
+	float: right;
+}
+
+.wideDiv a:hover {
+	background-color: #F8EB26;
+	color: #7B45FF!important;
+	text-decoration: none!important;
+	border-radius: 80px;
+	padding: 5px 10px 5px 10px;
 }
 
 .nav-link-narrow {
-	padding: 3px 0;
+	padding: 3px 3px;
+	display: inline-block;
+	color: #7B45FF!important
+}
+
+.narrowLinks {
+	list-style: none;
+}
+
+.narrowLinks a:hover {
+	background-color: #F8EB26;
+	color: #7B45FF!important;
+	text-decoration: none!important;
+	border-radius: 80px;
+	padding: 3px 3px;
 }
 
 /* Breakpoint when the "hamburger" menu is
@@ -141,10 +161,4 @@ ul {
 	.nav-link-wide {
 		display: none;
 	}
-}
-
-/*---Resume Component---*/
-.resume-link {
-	padding: 0 10px;
-	font-size: 1rem;
 }
