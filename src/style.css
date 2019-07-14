@@ -131,6 +131,10 @@ nav {
 	padding: 5px 10px 5px 10px;
 }
 
+.wideDiv a:visited {
+	color: #7B45FF!important;
+}
+
 .nav-link-narrow {
 	padding: 3px 3px;
 	display: inline-block;
@@ -139,6 +143,7 @@ nav {
 
 .narrowLinks {
 	list-style: none;
+	background-color: white;
 }
 
 .narrowLinks a:hover {
@@ -147,6 +152,10 @@ nav {
 	text-decoration: none!important;
 	border-radius: 80px;
 	padding: 3px 3px;
+}
+
+.narrowLinks a:visited {
+	color: #7B45FF!important;
 }
 
 /* Breakpoint when the "hamburger" menu is

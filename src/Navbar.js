@@ -42,7 +42,7 @@ class Navbar extends React.Component {
                             <a href={ Pdf } target="_blank" className="text-info nav-link-wide">Resume</a>
                         </div>
                     </div>
-                    <div className="navNarrow">
+                    <div className="navNarrow sticky-top">
                         <i className="fa fa-bars fa-2x hamburger" onClick={this.burgerToggle}></i>
                         <div>
                             <ul className="narrowLinks" style={this.state.style}>
