@@ -44,7 +44,7 @@ class Navbar extends React.Component {
                     </div>
                     <div className="navNarrow sticky-top">
                         <i className="fa fa-bars fa-2x hamburger" onClick={this.burgerToggle}></i>
-                        <div>
+                        <div className="nav-narrow-explanded-list">
                             <ul className="narrowLinks" style={this.state.style}>
                                 <li><Link to='/' className="text-info nav-link-narrow">Home</Link></li>
                                 <li><Link to='/portfolio/' className="text-info nav-link-narrow">Portfolio</Link></li>
