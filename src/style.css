@@ -3,6 +3,10 @@ body {
 	background-image: linear-gradient(to bottom right, #68ba95, #37B9E9)
 }
 
+div {
+	color: white;
+}
+
 /*---Intro Component---*/
 .intro {
 	display: inline-block;
@@ -45,6 +49,15 @@ body {
 
 .spacer {
 	margin: 15px 0px;
+}
+
+/*---About Me---*/
+.about-me-pic {
+	margin: 15px 0px;
+}
+
+.about-headline {
+	display: inline-block;
 }
 
 /*---Github Component---*/
