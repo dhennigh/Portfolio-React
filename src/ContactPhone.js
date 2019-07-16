@@ -16,11 +16,17 @@ class ContactPhone extends React.Component {
 
   	render() {
 	    return (
-	    	<div class="col-md-6">
-	        	<label>
-	        	Phone:
-	        	<input type="text" phone={this.state.phone} onChange={this.handleChangePhone} />
-	        	</label>
+	    	<div className="container">
+	    		<div className="row">
+		        	<label>
+     		    	<span className="col-md-3">
+		        	Phone:
+		        	</span>
+		        	<span className="col-md-4">
+		        	<input type="text" phone={this.state.phone} onChange={this.handleChangePhone} placeholder="555-555-5555" />
+		        	</span>
+		        	</label>
+	        	</div>
 		    </div>
 	    );
   	}

@@ -1,7 +1,7 @@
 const projectsData = [
     {
         name: "Gougères",
-        description: "Recipe for making cheese gougères",
+        description: "Recipe for making cheese gougères incorporating HTML, CSS, and some JavaScript",
         link: ""
     },
     {

@@ -50,7 +50,7 @@ class Navbar extends React.Component {
                                 <li><Link to='/portfolio/' className="text-info nav-link-narrow">Portfolio</Link></li>
                                 <li><Link to='/about/' className="text-info nav-link-narrow">About</Link></li>
                                 <li><Link to='/contact/' className="text-info nav-link-narrow">Contact</Link></li>
-                                <li><Link to='/resume/' className="text-info nav-link-narrow">Resume</Link></li>
+                                <li><a href={ Pdf } target='_blank' className="text-info nav-link-narrow">Resume</a></li>
                             </ul>
                         </div>
                     </div>

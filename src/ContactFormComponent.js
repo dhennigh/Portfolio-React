@@ -17,14 +17,17 @@ class ContactFormComponent extends React.Component {
 
   	render() {
       return (
-        <div>
+        <div className="container contact-form-components">
+          <h2 className="contact-form-heading">
+          Contact Me
+          </h2>
           <form onSubmit={this.handleSubmit}>
             <ContactName />
             <ContactEmail />
             <ContactPhone />
             <ContactMessage />
-            <input type="submit" value="Submit" class="btn btn-primary contact-submit-button"/>
-            <input type="reset" value="Clear Form" class="btn btn-secondary contact-clear-button"/>
+            <input type="submit" value="Submit" className="btn contact-submit-button"/>
+            <input type="reset" value="Clear Form" className="btn btn-secondary contact-clear-button"/>
           </form>
         </div>
 	    );

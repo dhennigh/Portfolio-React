@@ -16,7 +16,7 @@ class ContactMessage extends React.Component {
 
   	render() {
 	    return (
-	    	<div class="col-md-6">
+	    	<div className="contact-message">
 	        	<label className="form-label">Drop me a line:</label>
 	        	<br></br>
 			    <textarea

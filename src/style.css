@@ -53,11 +53,96 @@ div {
 
 /*---About Me---*/
 .about-me-pic {
-	margin: 15px 0px;
+	margin: 20px 0px;
+	vertical-align: middle;
 }
 
 .about-headline {
 	display: inline-block;
+	vertical-align: middle;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #7B45FF;
+	padding: 3rem 2rem;
+	margin-block-end: 0px!important;
+	background-image: linear-gradient(to right, rgba(123, 69, 255, .4), rgba(123, 69, 255, 0.0))
+}
+
+.about-me-section {
+	display: inline-block;
+	vertical-align: middle;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #F8EB26;
+	padding: 5px 2rem 5px 5px;
+	background-image: linear-gradient(to right, rgb(248, 235, 38, .4), rgb(248, 235, 38, 0.0))
+}
+
+.about-link {
+	color: #F8EB26;
+}
+
+.about-link:hover {
+	border-bottom-style: solid;
+	border-bottom-color: #F8EB26;
+	color: #F8EB26;
+	text-decoration: none;
+}
+
+.education-paragraph {
+	font-size: 20px;
+}
+
+.about-paragraph {
+	font-size: 17px;
+}
+
+/*---Contact Form---*/
+.contact-form-heading {
+	display: inline-block;
+	vertical-align: middle;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #7B45FF;
+	padding: 5px 2rem 5px 5px;
+	margin-top: 10px;
+	background-image: linear-gradient(to right, rgba(123, 69, 255, .4), rgba(123, 69, 255, 0.0))
+}
+
+.contact-submit-button {
+	color: #7B45FF!important;
+	background-color: #F8EB26!important;
+}
+
+/*---Project Component---*/
+.portfolio-form-heading {
+	display: inline-block;
+	vertical-align: middle;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #7B45FF;
+	padding: 5px 2rem 5px 5px;
+	margin-top: 10px;
+	background-image: linear-gradient(to right, rgba(123, 69, 255, .4), rgba(123, 69, 255, 0.0))
+}
+
+.project-links {
+	color: #F8EB26;
+}
+
+.project-links:hover {
+	border-bottom-style: solid;
+	border-bottom-color: #F8EB26;
+	color: #F8EB26;
+	text-decoration: none;
+}
+
+.project-showcase {
+	border-bottom-style: solid;
+	border-bottom-color: #7B45FF;
+	border-bottom-width: 1px;
+	padding: 10px 5px;
+	margin: 5px 5px;
 }
 
 /*---Github Component---*/
