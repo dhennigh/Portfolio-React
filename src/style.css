@@ -142,7 +142,9 @@ div {
 	border-bottom-color: #7B45FF;
 	border-bottom-width: 1px;
 	padding: 10px 5px;
-	margin: 5px 5px;
+	margin: 20px;
+    display: inline-block;
+    width: 45%;
 }
 
 /*---Github Component---*/
@@ -227,6 +229,7 @@ nav {
 	text-decoration: none!important;
 	border-radius: 80px;
 	padding: 5px 10px 5px 10px;
+	transition-duration: 1.5s;
 }
 
 .wideDiv a:visited {

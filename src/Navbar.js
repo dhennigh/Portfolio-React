@@ -15,7 +15,8 @@ class Navbar extends React.Component {
         this.state = {
             style: {
                 display: 'none'
-            }
+            },
+            isOpen: false,
         }
 
         this.burgerToggle = this.burgerToggle.bind(this)
@@ -27,9 +28,12 @@ class Navbar extends React.Component {
         } else {
             this.setState({style: {display: 'none'}})
         }
+        this.setState({isOpen: !this.state.isOpen})
     }
 
     render() {
+        const iconClassName = this.state.isOpen ? "far fa-window-close fa-2x" : "fa fa-bars fa-2x"
+
         return (
             <div>
             	<nav>
@@ -43,7 +47,7 @@ class Navbar extends React.Component {
                         </div>
                     </div>
                     <div className="navNarrow sticky-top">
-                        <i className="fa fa-bars fa-2x hamburger" onClick={this.burgerToggle}></i>
+                        <i className={`${iconClassName} hamburger`} onClick={this.burgerToggle}></i>
                         <div className="nav-narrow-explanded-list">
                             <ul className="narrowLinks" style={this.state.style}>
                                 <li><Link to='/' className="text-info nav-link-narrow">Home</Link></li>
