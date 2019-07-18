@@ -1,6 +1,8 @@
 /*---Body---*/
 body {
-	background-image: linear-gradient(to bottom right, #68ba95, #37B9E9)
+	background-image: linear-gradient(to bottom right, #68ba95, #37B9E9);
+	min-height: 100%;
+	position: relative;
 }
 
 div {
@@ -147,45 +149,59 @@ div {
     width: 45%;
 }
 
+/*---Footer Component---*/
+.footer-elements {
+    width: 100%;
+    background: #FAFAFA;
+    display: inline-block;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.footer-list-parent {
+	vertical-align: middle;
+	margin: 5px 5px;
+	margin: auto;
+	width: 50%
+}
+
+.footer-list {
+	display: inline-block;
+	list-style: none!important;
+	padding: 0px 10px;
+}
+
+.footer-align {
+	color: #7B45FF;
+	display: inline-block;
+}
+
+.footer-text {
+	color: #7B45FF;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 4px;
+}
+
 /*---Github Component---*/
 #github-icon {
 	color: #24292e;
 	font-size: 36px;
-	margin-bottom: -5px;
+	vertical-align: middle;
 }
 
 /*---Linkedin Component---*/
 #linkedin-icon {
     color: #0073b1;
     font-size: 36px;
-    margin-left: 0;
-    transition: margin-left 2s;
-    margin-bottom: -5px;
-}
-
-#linkedin-icon:hover {
-	margin-left: 10px;
+    vertical-align: middle;
 }
 
 /*---Facebook Component---*/
 #facebook-icon {
 	color: #4267b2;
     font-size: 36px;
-}
-.social-container a {
-	left: 0;
-}
-
-.social-container {
-	position: left;
-}
-
-/*---Social Component---*/
-.social-icons {
-	list-style-type: none;
-	position: absolute;
-	left: 0;
-	/*transform: translateX(-58%);*/
+    vertical-align: middle;
 }
 
 /*---Contact Component---*/
@@ -272,5 +288,15 @@ nav {
 @media (max-width: 479px) {
 	.nav-link-wide {
 		display: none;
+	}
+
+	.footer-list-parent {
+		vertical-align: middle;
+		margin: 5px 5px;
+		text-align: left;
+	}
+
+	.footer-list {
+		width: 100%;
 	}
 }
