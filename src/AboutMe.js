@@ -101,7 +101,7 @@ class AboutMe extends React.Component {
         			</p>
     			</div>
 
-    			<div className="container">
+    			<div className="container additional-information">
     				<h3 className="about-me-section">
 	        			Additional Information
         			</h3>

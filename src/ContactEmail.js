@@ -17,16 +17,12 @@ class ContactEmail extends React.Component {
   	render() {
 	    return (
 	    	<div className="container">
-		    	<div className="row">
-		        	<label>
-		        	<span className="contact-label col-md-3">
+		        	<label className="row">
+		        	<span className="contact-label col-md-1">
 		        	E-mail:
 		        	</span>
-		        	<span className="col-md-4">
-		        	<input type="text" email={this.state.email} onChange={this.handleChangeEmail} placeholder="your@email.com" />
-		        	</span>
+		        	<input type="text" email={this.state.email} className="form-control col-md-4" onChange={this.handleChangeEmail} placeholder="your@email.com" />
 		        	</label>
-		        </div>
 		    </div>
 	    );
   	}

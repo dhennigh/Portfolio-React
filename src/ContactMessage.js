@@ -21,7 +21,7 @@ class ContactMessage extends React.Component {
 	        	<br></br>
 			    <textarea
 			    	onChange={this.handleChangeMessage}
-			    	className="contact-message"
+			    	className="contact-message col-md-5 form-control"
 			    	rows="10"
 			    	cols="50"
 			    	placeholder="Write your message here."

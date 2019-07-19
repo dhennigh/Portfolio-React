@@ -1,13 +1,17 @@
 /*---Body---*/
 body {
 	background-image: linear-gradient(to bottom right, #68ba95, #37B9E9);
-	min-height: 100%;
 	position: relative;
 }
 
 div {
 	color: white;
 }
+
+/*---Images---*/
+/*
+Images are 1110 x 535 px
+*/
 
 /*---Intro Component---*/
 .intro {
@@ -134,22 +138,42 @@ div {
 
 .project-links:hover {
 	border-bottom-style: solid;
+	border-width: 2px;
 	border-bottom-color: #F8EB26;
 	color: #F8EB26;
 	text-decoration: none;
 }
 
 .project-showcase {
-	border-bottom-style: solid;
-	border-bottom-color: #7B45FF;
-	border-bottom-width: 1px;
 	padding: 10px 5px;
-	margin: 20px;
+	margin: 20px 5px 0px 5px;
     display: inline-block;
     width: 45%;
+    vertical-align: top;
+}
+
+.project-description {
+	min-height: 50px;
+}
+
+.card {
+	background: none;
+	border-color: rgba(123, 69, 255, .3);
+}
+
+.project-image {
+	padding: 5px;
+	border-radius: 8px;
 }
 
 /*---Footer Component---*/
+footer {
+	display: flex;
+	align-items: flex-end;
+	position: absolute;
+	bottom: 0;
+}
+
 .footer-elements {
     width: 100%;
     background: #FAFAFA;
@@ -205,6 +229,12 @@ div {
 }
 
 /*---Contact Component---*/
+.contact-form-components {
+	/*width: 100%;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
 .contact-submit-button {
 	margin-left: 15px;
 	margin-top: 5px;
@@ -213,6 +243,12 @@ div {
 .contact-clear-button {
 	margin-left: 5px;
 	margin-top: 5px;
+}
+
+.contact-label {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 0px;
 }
 
 /*---Navbar---*/
@@ -298,5 +334,32 @@ nav {
 
 	.footer-list {
 		width: 100%;
+	}
+
+	.project-showcase {
+		width: 100%;
+	}
+
+	.about-headline {
+		font-size: 22px;
+		padding: 1rem 2rem;
+		margin-bottom: 10px!important;
+	}
+
+	.about-me-pic {
+		width: 60%;
+		height: auto;
+	}
+
+	.work-experience {
+		padding-left: 0px;
+	}
+
+	.education-experience {
+		padding-left: 0px;
+	}
+
+	.additional-information {
+		padding-left: 0px;
 	}
 }

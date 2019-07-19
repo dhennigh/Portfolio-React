@@ -17,16 +17,12 @@ class ContactName extends React.Component {
   	render() {
 	    return (
 	    	<div className="container">
-	    		<div className="row">
-		        	<label>
-		        	<span className="contact-label col-md-3">
-		        	Name:
-		        	</span>
-		        	<span className="col-md-4">
-		        	<input type="text" name={this.state.name} onChange={this.handleChangeName} placeholder="Name" />
-		        	</span>
-		        	</label>
-		        </div>
+	        	<label className="row">
+	        	<span className="contact-label col-md-1">
+	        	Name:
+	        	</span>
+	        	<input type="text" name={this.state.name} className="form-control col-md-4" onChange={this.handleChangeName} placeholder="Name" />
+	        	</label>
 		    </div>
 	    );
   	}

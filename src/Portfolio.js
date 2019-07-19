@@ -15,9 +15,11 @@ class Portfolio extends React.Component {
                 <div className="container">
                 {projectsData.map(project => (
                 	<Project
-                		key={'project${i++}'}
                 		name={project.name}
                 		description={project.description}
+                        link={project.link}
+                        image={project.image}
+                        title={project.title}
                 	/>
                 ))}
                 </div>
