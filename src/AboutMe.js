@@ -110,8 +110,8 @@ class AboutMe extends React.Component {
 		        	</p>
 	        	</div>
 
-	        	<div className="container">
-	        		<p className="about-paragraph" id="about-paragraph-3">
+	        	<div>
+	        		<p className="about-paragraph additional-information" id="about-paragraph-3">
 		        	I hope you'll take a look at my projects and use the <Link to='/contact/' className="about-link">contact</Link> form
 		        	to <a href="mailto:dchennigh@gmail.com" className="about-link" title="E-mail me">get in touch</a>.
 		        	</p>

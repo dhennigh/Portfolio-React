@@ -8,6 +8,11 @@ div {
 	color: white;
 }
 
+/*---Ensure Footer doesn't cover up content on page---*/
+.push {
+	height: 75px;
+}
+
 /*---Images---*/
 /*
 Images are 1110 x 535 px
@@ -361,5 +366,9 @@ nav {
 
 	.additional-information {
 		padding-left: 0px;
+	}
+
+	.push {
+		height: 150px;
 	}
 }

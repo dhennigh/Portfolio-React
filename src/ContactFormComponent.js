@@ -18,19 +18,19 @@ class ContactFormComponent extends React.Component {
   	render() {
       return (
         <div className="container">
-        <div className="contact-form-components">
-            <h2 className="contact-form-heading">
-            Contact Me
-            </h2>
-            <form onSubmit={this.handleSubmit}>
-              <ContactName />
-              <ContactEmail />
-              <ContactPhone />
-              <ContactMessage />
-              <input type="submit" value="Submit" className="btn contact-submit-button"/>
-              <input type="reset" value="Clear Form" className="btn btn-secondary contact-clear-button"/>
-            </form>
-        </div>
+          <div className="contact-form-components">
+              <h2 className="contact-form-heading">
+              Contact Me
+              </h2>
+              <form onSubmit={this.handleSubmit}>
+                <ContactName />
+                <ContactEmail />
+                <ContactPhone />
+                <ContactMessage />
+                <input type="submit" value="Submit" className="btn contact-submit-button"/>
+                <input type="reset" value="Clear Form" className="btn btn-secondary contact-clear-button"/>
+              </form>
+          </div>
         </div>
 	    );
   	}
