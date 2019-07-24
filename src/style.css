@@ -21,9 +21,9 @@ Images are 1110 x 535 px
 /*---Intro Component---*/
 .intro {
 	display: inline-block;
-	position: absolute;
-	top: 25%;
-	left: 5%;
+	/*position: absolute;*/
+	padding-top: 80px;
+	padding-left: 80px;
 }
 
 .intro-header1 {
@@ -327,6 +327,11 @@ nav {
 }
 
 @media (max-width: 479px) {
+	.intro {
+		padding-top: 20px;
+		padding-left: 15px;
+	}
+
 	.nav-link-wide {
 		display: none;
 	}

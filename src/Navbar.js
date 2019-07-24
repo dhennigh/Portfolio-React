@@ -23,16 +23,19 @@ class Navbar extends React.Component {
     }
 
     burgerToggle = () => {
-        if (this.state.style.display === 'none') {
-            this.setState({style: {display: 'block'}})
-        } else {
-            this.setState({style: {display: 'none'}})
-        }
         this.setState({isOpen: !this.state.isOpen})
     }
 
     render() {
         const iconClassName = this.state.isOpen ? "far fa-window-close fa-2x" : "fa fa-bars fa-2x"
+
+        const burgerActive = this.state.isOpen ? {display: 'block'} : {display: 'none'}
+
+        const closeHamburger = () => {
+            this.setState({
+                isOpen: false,
+            })
+        }
 
         return (
             <div>
@@ -49,12 +52,12 @@ class Navbar extends React.Component {
                     <div className="navNarrow sticky-top">
                         <i className={`${iconClassName} hamburger`} onClick={this.burgerToggle}></i>
                         <div className="nav-narrow-explanded-list">
-                            <ul className="narrowLinks" style={this.state.style}>
-                                <li><Link to='/' className="text-info nav-link-narrow">Home</Link></li>
-                                <li><Link to='/portfolio/' className="text-info nav-link-narrow">Portfolio</Link></li>
-                                <li><Link to='/about/' className="text-info nav-link-narrow">About</Link></li>
-                                <li><Link to='/contact/' className="text-info nav-link-narrow">Contact</Link></li>
-                                <li><a href={ Pdf } target='_blank' className="text-info nav-link-narrow">Resume</a></li>
+                            <ul className="narrowLinks" style={burgerActive}>
+                                <li><Link to='/' className="text-info nav-link-narrow" onClick={closeHamburger}>Home</Link></li>
+                                <li><Link to='/portfolio/' className="text-info nav-link-narrow" onClick={closeHamburger}>Portfolio</Link></li>
+                                <li><Link to='/about/' className="text-info nav-link-narrow" onClick={closeHamburger}>About</Link></li>
+                                <li><Link to='/contact/' className="text-info nav-link-narrow" onClick={closeHamburger}>Contact</Link></li>
+                                <li><a href={ Pdf } target='_blank' className="text-info nav-link-narrow" onClick={closeHamburger}>Resume</a></li>
                             </ul>
                         </div>
                     </div>

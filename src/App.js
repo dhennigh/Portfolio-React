@@ -25,15 +25,15 @@ class App extends React.Component {
         return (
             <div>
             	<Router>
-            		<Navbar />
-					<Switch>
-						<Route exact path='/' component={Introduction} />
-				        <Route path='/about/' component={AboutMe} />
-				        <Route path='/portfolio/' component={Portfolio} />
-				        <Route path='/contact/' component={ContactFormComponent} />
-				        <Route path='/resume/' component={Pdf} />
-				    </Switch>
-				    <Footer />
+            	<Navbar />
+    					<Switch>
+    						<Route exact path='/' component={Introduction} />
+    		        <Route path='/about/' component={AboutMe} />
+    		        <Route path='/portfolio/' component={Portfolio} />
+    		        <Route path='/contact/' component={ContactFormComponent} />
+    		        <Route path='/resume/' component={Pdf} />
+    				  </Switch>
+				      <Footer />
 				</Router>
             </div>
         )
