@@ -25,7 +25,7 @@ const projectsData = [
         description: "React website showcasing my professional portfolio",
         link: "https://github.com/dhennigh/Portfolio-React",
         image: "https://i.ibb.co/Tr0QRmn/Professional-Portfolio.jpg",
-        atl: "Professional Portfolio"
+        title: "Professional Portfolio"
     },
 
 ]
