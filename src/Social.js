@@ -23,7 +23,7 @@ class Social extends React.Component {
             		</li>
                     <li>
                         <a target="_blank" href="https://www.facebook.com/dchennigh">
-                        <i className="fab fa-facebook-square" id="facebook-icon"></i>
+                        <i className="fab fa-facebook-square" id="facebook-icon" title="Connect on Facebook"></i>
                         <span className="social-title">Facebook</span>
                         </a>
                     </li>

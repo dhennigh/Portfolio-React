@@ -7,7 +7,7 @@ class Footer extends React.Component {
             	<footer className="footer-elements">
             		<ul className="footer-list-parent">
 		            	<li className="facebook footer-list">
-		            		<a target="_blank" href="https://www.facebook.com/dchennigh">
+		            		<a target="_blank" href="https://www.facebook.com/dchennigh" title="Connect on Facebook">
 		            			<div className="footer-align">
 					            	<i class="fab fa-facebook-square" id="facebook-icon"></i>
 					            	<span className="footer-text"> Facebook</span>
@@ -16,7 +16,7 @@ class Footer extends React.Component {
 		            	</li>
 
 		            	<li className="github footer-list">
-			            	<a target="_blank" href="https://github.com/dhennigh">
+			            	<a target="_blank" href="https://github.com/dhennigh" title="Connect on Github">
 			            	<i className="fab fa-github-square" id="github-icon"></i>
 			            	<span className="footer-text"> Github</span>
 			            	</a>

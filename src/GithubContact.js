@@ -5,7 +5,7 @@ class GithubContact extends React.Component {
         	
         return (
             <div class="container social-container">
-            	<a target="_blank" href="https://github.com/dhennigh">
+            	<a target="_blank" href="https://github.com/dhennigh" title="Connect on Github">
             	<i class="fab fa-github-square" id="github-icon"></i>
             	</a>
             </div>
