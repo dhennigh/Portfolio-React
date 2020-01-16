@@ -27,6 +27,13 @@ const projectsData = [
         image: "https://i.ibb.co/Tr0QRmn/Professional-Portfolio.jpg",
         title: "Professional Portfolio"
     },
+    {
+        name: "Move and Groove", 
+        description: "Ruby on Rails fitness tracker utilizing Ruby, Bootstrap, CSS, and HTML",
+        link: "https://github.com/dhennigh/Portfolio-React",
+        image: "https://i.ibb.co/VjyHGcW/2020-01-16-17-12-42-Move-And-Groove.png",
+        title: "Move and Groove"
+    },
 
 ]
 
